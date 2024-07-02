@@ -72,6 +72,13 @@ h3 {
     font-size: 0.5em;
 }
 
-.task-section {
-
+.circle {
+    border: 1px solid green;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: inline-block;
+    
+    
 }
+
+.stick 
