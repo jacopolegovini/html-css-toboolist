@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background-color: lightgray;
 }
 
@@ -10,7 +13,25 @@
     height: 100px;
 }
 
+.logo {
+    background-color: white;
+}
+
 h1 {
     background-color: white;
     line-height: 100px;
+    display: inline;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: white;
+    width: 800px;
+    margin-top: 40px;
+}
+
+.interacton-bar {
+    
 }
