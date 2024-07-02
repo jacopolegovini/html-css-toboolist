@@ -2,4 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.header {
+    background-color: white;
+    height: 100px;
+}
+
+h1 {
+    background-color: white;
+    line-height: 100px;
 }
