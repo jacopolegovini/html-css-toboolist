@@ -1,3 +1,5 @@
+/* General */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,8 @@ body {
     background-color: rgb(224, 224, 224);
 }
 
+/* Header elements */
+
 .header {
     background-color: white;
     height: 100px;
@@ -16,6 +20,9 @@ body {
 
 .logo {
     background-color: white;
+    vertical-align: middle;
+    height: 60%;
+    margin: 0 0 0 20px;
 }
 
 h1 {
@@ -23,7 +30,11 @@ h1 {
     line-height: 100px;
     display: inline;
     font-weight: bolder;
+    vertical-align: middle;
+    font-size: 3rem;
 }
+
+/* Main elements */
 
 .container {
     max-width: 1080px;
@@ -39,6 +50,8 @@ h1 {
     border-style: solid;
     border-color: lightgray;
 }
+
+/* First section */
 
 .buttons {
     padding: 10px 20px;
@@ -60,6 +73,8 @@ h1 {
     color: #999;
 }
 
+/* Second section */
+
 .general-tasks {
     padding: 10px 30px 20px 30px;
 }
@@ -74,11 +89,12 @@ p {
     font-size: 18px;
 }
 
-/* ENTITIES */
+/* Entities */
 
 .triangle {
     font-size: 0.5em;
     vertical-align: middle;
+    padding: 0 5px 0 0;
 }
 
 .circle {
@@ -105,7 +121,7 @@ p {
     margin: 0 5px 0 0
 }
 
-/* ADESIVI */
+/* Sticks */
 
 .stick {
     color: white;
